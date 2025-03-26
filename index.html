@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksforGeeks TechCon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+        .intro-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            flex-direction: column;
+        }
+        .about-box, .schedule-box {
+            max-width: 800px;
+            text-align: left;
+            border: 2px solid blue;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .about-title, .schedule-title {
+            color: blue;
+            text-align: left;
+        }
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .schedule-table, .schedule-table th, .schedule-table td {
+            border: 1px solid blue;
+            padding: 10px;
+            text-align: left;
+        }
+        .schedule-table th {
+            background-color: lightblue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to GeeksforGeeks TechCon</h1>
+        <h2>The ultimate Technology and Programming Conference</h2>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="intro-section" id="about">
+        <div class="about-box">
+            <h2 class="about-title">About the Event</h2>
+            <p>GeeksforGeeks TechCon 2025 brings together leading minds in programming, tech, and innovation. Join us for a day of insightful talks, hands-on workshops, and an opportunity to network with fellow geeks and professionals from all around the world.</p>
+        </div>
+    </section>
+    <section class="intro-section" id="schedule">
+        <div class="schedule-box">
+            <h2 class="schedule-title">Event Schedule</h2>
+            <p>Stay tuned for the full schedule of talks, workshops, and networking events. We have an exciting lineup of speakers and sessions designed to inspire and educate attendees on the latest trends in technology and programming.</p>
+            <table class="schedule-table">
+                <tr>
+                    <th>Time</th>
+                    <th>Session</th>
+                    <th>Contest</th>
+                </tr>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td>Opening Keynote</td>
+                    <td>GeeksforGeeks Coding Platform</td>
+                </tr>
+                <tr>
+                    <td>10:30 AM</td>
+                    <td>Understanding AI and Machine Learning</td>
+                    <td>Mr. Arvind Kumar</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Lunch Break</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td>Exploring the Future of Cloud Computing</td>
+                    <td>Ms. Neha Gupta</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
